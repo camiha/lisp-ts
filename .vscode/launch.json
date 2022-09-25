@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "ts-node",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": ["<node_internals>/**", "node_modules/**"],
+            "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+            "program": "${file}"
+        },
+        {
+            "name": "ts-node:attach",
+            "type": "node",
+            "request": "attach",
+            "processId": "${command:PickProcess}"
+        },
+        {
+            "name": "ts-node:vitest",
+            "type": "node",
+            "request": "launch",
+            "autoAttachChildProcesses": true,
+            "skipFiles": ["<node_internals>/**", "**/node_modules/**"],
+            "program": "${workspaceRoot}/node_modules/vitest/vitest.mjs",
+            "args": ["run", "${relativeFile}"],
+            "smartStep": true,
+            "console": "integratedTerminal"
+        }
+    ]
+}
