@@ -53,9 +53,13 @@ recursive function
   120
 ```
 
+## Todo
+
+-   add environment scope
+
 ## Respect
 
-Create interpreter is one of awesome experience in my programming life.
+Create interpreter is one of awesome experience in my programming life.  
 thanks for next articles and all lisp programmers.
 
 -   [Land of Lisp [book]](https://www.oreilly.com/library/view/land-of-lisp/9781593272814/)
@@ -66,4 +70,3 @@ thanks for next articles and all lisp programmers.
     -   and translated article [((Python で) 書く (Lisp) インタプリタ)](http://www.aoky.net/articles/peter_norvig/lispy.htm)
 -   [JavaScript で Web ブラウザ版 LISP 処理系を作ってみた](https://zenn.dev/ytaki0801/articles/042cfa374223b3a5c03c)
 -   [JavaScript の ES2015 を使ったら Lisp を 100 行未満で実装できた](https://qiita.com/41semicolon/items/d59f00ebb70b14fdb4e3)
-
